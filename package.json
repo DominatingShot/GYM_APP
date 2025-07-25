@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/DominatingShot/GYM_APP/issues"
   },
-  "homepage": "https://github.com/DominatingShot/GYM_APP#readme"
+  "homepage": "https://github.com/DominatingShot/GYM_APP#readme",
+  "devDependencies": {
+    "sass-embedded": "^1.89.2"
+  }
 }

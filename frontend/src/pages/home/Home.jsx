@@ -3,15 +3,16 @@
 // import Features from "../../components/Features/Features";
 // import Steps from "../../components/HowItWorks/Steps";
 // import AboutUs from "../../components/AboutUs/AboutUs";
+import NavBar from "../../components/navbar/navBar"
 const Home = ()=>{
     return (
         <div className="home">
-            hi
-            {/* <NavBar/>
+    
+            <NavBar/>
             
-            <ImageHeader/>
-            <Features/>
-            <Steps/> */}
+            {/* <ImageHeader/> */}
+            {/* <Features/> */}
+            {/* <Steps/> */}
         </div>
     );
 }
