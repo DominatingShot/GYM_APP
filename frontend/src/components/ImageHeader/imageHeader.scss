@@ -1,0 +1,35 @@
+.Container{
+    width: 100%;
+    position: relative;
+    .textContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: inherit;
+        height: inherit;
+        position: relative;
+        z-index: 2;
+        background-color: rgba(0, 0, 0, 0.7);
+        color: white;
+        align-items: center;
+
+        p{
+            font-size: 30px;
+            padding-left:30%;
+        }
+        
+    }
+
+    .imageContainer{
+        top: 0;
+        position: absolute;
+        width: inherit;
+        height: inherit;    
+        img{
+            width: inherit;
+            height: inherit;
+        }
+    }
+
+    
+}
