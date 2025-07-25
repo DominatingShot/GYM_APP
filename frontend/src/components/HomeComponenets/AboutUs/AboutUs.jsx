@@ -1,5 +1,5 @@
 import "./aboutus.scss"    
-import image from "../../assets/landingPage/img6.jpg"
+import image from "../../../assets/landingPage/img6.jpg"
 
 const AboutUs = () =>{
     return (
