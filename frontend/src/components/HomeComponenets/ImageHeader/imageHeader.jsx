@@ -1,5 +1,5 @@
 import "./imageHeader.scss"
-import image from "../../assets/landingPage/img7.jpg"
+import image from "../../../assets/landingPage/img7.jpg"
 
 const imageHeader = () => {
     return (

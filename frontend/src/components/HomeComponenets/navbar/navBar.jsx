@@ -1,4 +1,4 @@
-import FitForgeLogo from "../../assets/landingPage/FitForge.png";
+import FitForgeLogo from "../../../assets/landingPage/FitForge.png";
 import "./navBar.scss"
 
 
