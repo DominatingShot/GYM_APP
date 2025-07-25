@@ -1,6 +1,6 @@
-// import NavBar from "../../components/navbar/navBar";
+
 import ImageHeader from "../../components/ImageHeader/imageHeader";
-// import Features from "../../components/Features/Features";
+import Features from "../../components/Features/Features";
 import Steps from "../../components/HowItWorks/Steps";
 import AboutUs from "../../components/AboutUs/AboutUs";
 import NavBar from "../../components/navbar/navBar"
@@ -11,7 +11,7 @@ const Home = ()=>{
             <NavBar/>
             <AboutUs/>
             <ImageHeader/>
-            {/* <Features/> */}
+            <Features/>
             <Steps/>
         </div>
     );

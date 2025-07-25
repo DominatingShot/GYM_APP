@@ -1,0 +1,89 @@
+.featureContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    .feature{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        margin: 90px 20px;
+        gap: 30px;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #e0e0e0;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+        border-radius: 8px; 
+        padding: 0px 30px;
+        position: relative;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        &:hover {
+        transform: translateY(-10px) scale(1.03);
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .header{
+            background-color: white;
+            position: absolute;
+            top: 0;
+            z-index: 2;
+            transform: translateY(-50%);
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        .header#one{
+            color: rgb(28, 142, 0);
+        }
+
+        .header#two{
+            color: chocolate;
+        }
+        .header#three{
+            color: maroon;
+        }
+        .header#four{
+            color: teal;
+        }
+
+        .content{
+            font-size: 18px;
+            display: flex;
+            text-align: center;
+            padding-top: 20px;
+        }
+        button{
+            height: 40px;
+            width: 120px;
+            font-size: 18px;
+            color: white;
+            cursor: pointer;
+            border: none;
+            font-weight: 600;
+            transition: ease-in-out 0.3s    ;
+
+            &:hover{
+                filter: brightness(90%);
+            }
+        }
+
+        button#one{
+            background-color:  rgb(28, 142, 0);
+        }
+
+        button#two{
+            background-color:chocolate ;
+        }
+
+        button#three{
+            background-color: maroon;
+        }
+
+        button#four{
+            background-color: teal;
+        }
+    }
+    
+}
