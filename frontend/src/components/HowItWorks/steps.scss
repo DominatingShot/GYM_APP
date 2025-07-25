@@ -1,0 +1,90 @@
+.StepsContainer{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 70px;
+    align-items: center;
+    gap: 30px;
+    .header{
+        p{
+            font-size: 35px;
+            font-weight: 800;
+            font-family:sans-serif
+        }
+    }
+
+    .stepNumber{
+        margin: 50px 0px;
+        display: flex;
+
+        .number{
+            border: 1px solid black;
+            border-radius: 50%;
+            width: 70px;
+            height: 70px;
+        }
+        .numberOne{
+            padding-left: 40px;
+        }
+        .numberTwo{
+            .number {
+                background: radial-gradient(circle at top left, #f8b88b, #E8905A);
+                color: white;
+                font-size: 1.25rem;
+                font-weight: 700;
+                }
+        }   
+        div{
+            display: flex;
+            .number{
+                box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+                color: black;
+                font-weight: 700;
+                font-size: 1.25rem;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: rgba(252, 208, 174, 1);
+                border: none;
+
+            }
+            .underScore{
+                transform: translateY(20%);
+                padding: 0px 10px;
+                color: rgb(194, 194, 194);
+            }
+        }
+    }
+
+    .stepContent{
+        display: flex;
+        
+        div{
+            padding: 0px 10px;
+            font-size: 20px;
+            font-weight: 600;
+            p{
+                text-align: center;
+            }
+            margin-bottom: 60px;
+        }
+
+    }
+
+    .button {
+    background-color: #E8905A;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    transform: translateY(-30px);
+
+    &:hover {
+      background-color: darken(#E8905A, 10%);
+    }
+  }
+
+
+}
